@@ -1,1 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hotel NebulaSky Retreat</title>
 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+   
+   <div class="flex">
+      <a href="#home" class="logo"><img src="images/logo.png" width="245" height="56"></a>
+      <a href="#availability" class="btn">check availability</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#reservation">reservation</a>
+      <a href="#gallery">gallery</a>
+      <a href="#contact">contact</a>
+      <a href="#reviews">reviews</a>
+   </nav>
+
+</section>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="box swiper-slide">
+            <img src="images/home-img-1.jpg" alt="">
+            <div class="flex">
+               <h3>luxurious rooms</h3>
+               <a href="#availability" class="btn">check availability</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="images/home-img-2.jpg" alt="">
+            <div class="flex">
+               <h3>foods and drinks</h3>
+               <a href="#reservation" class="btn">make a reservation</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="images/home-img-3.jpg" alt="">
+            <div class="flex">
+               <h3>luxurious halls</h3>
+               <a href="#contact" class="btn">contact us</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- availability section starts  -->
+
+<section class="availability" id="availability">
+
+   <form action="" method="post">
+      <div class="flex">
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="1">1 adult</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>childs <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+               <option value="6">6 childs</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" class="input" required>
+               <option value="1">1 room</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="check availability" name="check" class="btn">
+   </form>
+
+</section>
+
+<!-- availability section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="row">
+      <div class="image">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQvMJA2DRHX-4-BxpImNcutVzTuIt3c3RIg&usqp=CAU" alt="">
+      </div>
+      <div class="content">
+         <h3>best staff</h3>
+         <p>This fabulous, 5 star hotel offers a wonderful ambiance, professional and a freindly staff and a quality experience</p>
+         <a href="#reservation" class="btn">make a reservation</a>
+      </div>
+   </div>
+
+   <div class="row revers">
+      <div class="image">
+         <img src="images/about-img-2.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>best foods</h3>
+         <p>These are different menu types in the hotel industry:
+            1. Breakfast Menu
+Breakfast is the first type of meal of the day on the hotel menu list, It is served between 7-10 a.m. And it offers all kinds of dishes that are suitable for breakfast in a hotel.
+
+Continental breakfast, English breakfast, American breakfast, and Indian breakfast menus are the commonly found menus. It may be in the form of table d’hôte and à la carte.
+
+2. Brunch Menu
+Brunch refers to heavy mid-morning snacks that combine breakfast and lunch consumed late in the morning between 10 a.m. to 12 p.m.
+
+Sandwiches, Burgers, Hot dogs, Pastries, Salads, Vegetable patties, Fried fish, and Cold and Hot beverages are offered on this menu.
+
+3. Luncheon Menu
+This lunch menu in the hotel includes dishes that are offered during lunch hours. So restaurants offer dishes that can be quickly prepared and served.
+Indian restaurants serve “Thalis” of different kinds and executive lunches to speed up service and meet the demands of consumers.
+
+4. Afternoon and High Tea Menu
+It is served between 3 p.m to 6 p.m. The menu includes bread, toast, sandwiches, scones, pastries, grills, fish, salads, kachori, samosa, cutlets, ice creams, and so on, with coffee or tea.
+
+5. Dinner Menu
+The dinner menu in the hotel includes dishes that are offered during dinner hours between 7 to 11 p.m.
+
+6. Super Menu
+The super menu is a light evening meal type in the hotel industry, mostly taken before dinner during evening social events. We also served late at night. The menu for supper varies according to the time of the night.
+         </p>
+         <a href="#contact" class="btn">contact us</a>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="image">
+         <img src="images/outdoor-pool.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>swimming pool</h3>
+         <p>We have 2 attracrive swimming pools (for girls and boys separate).Its open from morning 7 am till night 11pm.</p>
+         <a href="#availability" class="btn">check availability</a>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>food & drinks</h3>
+         <p>Wide variety of mouth-watering food items are available here ranging from indian to italian dishes and a stylish bar.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>outdoor dining</h3>
+         <p>Want to have dinner/lunch in outdoor?we offer best outdoor-dinings.You will feel the 
+            peace and nature that you would not have felt anywhere else!
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>beach view</h3>
+         <p>This hotel has an amazing view of marina beach.Be ready to get mesmerized by seeing it!!</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>decorations</h3>
+         <p>This hotel also has gardens with extra-ordinary plants and flowers.You will love the atmosphere 
+            and will love the nature here.</p>
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>swimming pool</h3>
+         <p>We have 2 swimming pools and also have facility of spa.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>resort beach</h3>
+         <p>We also have a private beach which is exactly near Marina beach.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- reservation section starts  -->
+
+<section class="reservation" id="reservation">
+
+   <form action="" method="post">
+      <h3>make a reservation</h3>
+      <div class="flex">
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="1">1 adult</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>childs <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+               <option value="6">6 childs</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" class="input" required>
+               <option value="1">1 room</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="check availability" name="check" class="btn">
+   </form>
+
+</section>
+
+<!-- reservation section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="swiper gallery-slider">
+      <div class="swiper-wrapper">
+         <img src="images/gallery-img-1.jpg" class="swiper-slide" alt="">
+         <img src="images/gallery-img-2.webp" class="swiper-slide" alt="">
+         <img src="images/gallery-img-3.webp" class="swiper-slide" alt="">
+         <img src="https://media.gettyimages.com/id/1372036302/photo/hotel-employee.jpg?s=612x612&w=0&k=20&c=MceAnpfbwVA6svMsfvyNEQl6kfov7lAvD5reK2pfjVY=" class="swiper-slide" alt="">
+         <img src="images/gallery-img-5.webp" class="swiper-slide" alt="">
+         <img src="images/gallery-img-6.webp" class="swiper-slide" alt="">
+      </div>
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <div class="row">
+
+      <form action="" method="post">
+         <h3>send us message</h3>
+         <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+         <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+         <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
+         <textarea name="msg" class="box" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" name="send" class="btn">
+      </form>
+
+      <div class="faq">
+         <h3 class="title">frequently asked questions</h3>
+         <div class="box active">
+            <h3>how to cancel?</h3>
+            <p>If you'd like to change or cancel your reservation, contact  hotel or your online travel agency directly for help</p>
+         </div>
+         <div class="box">
+            <h3>is there any vacancy?</h3>
+            <p>Right now we dont have any vacancies left in our hotel.But we will update you soon if any vacancy is left</p>
+         </div>
+         <div class="box">
+            <h3>what are payment methods?</h3>
+            <p>Modes of payment in hotel reservations are credit card, debit card, QR code, UPI, pay later,net-banking or any other.</p>
+         </div>
+         <div class="box">
+            <h3>how to claim coupons codes?</h3>
+            <p>Get upto 30% off on room reservation and 40% off on dinner.For more info call our customer helpline number</p>
+         </div>
+         <div class="box">
+            <h3>what are the age requirements?</h3>
+            <p>It is mandatory for an adult to stay in a hotel room with any minor under the age of 18. This policy exists as a safety measure and helps ensure that minors are supervised by an adult at all times while staying in hotels</p>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+            <img src="https://img.freepik.com/free-photo/close-up-portrait-young-indian-man-with-beard-white-shirt-isolated-standing-smiling_155003-23823.jpg?w=2000" alt="">
+            <h3>Gaurav kumar</h3>
+            <p>I have stayed at dozen of hotels in India. This was on the top of the list of best stays/experiences ever. Staff was very hospitable and there for every need of mine. Thank you so much.</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <h3>Swati patel</h3>
+            <p>The best hotel I’ve ever been privileged enough to stay at. Gorgeous building, and it only gets more breathtaking when you walk in. High quality rooms (there was even a tv by the shower), and high quality service.</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <h3>Niraj pandey</h3>
+         <p>Good location staff was very friendly and helpful This was a very nice place to stay, it exceeded my expectations. Very convenient location. The staff were extremely accommodating and we had a fantastic stay. The room was quiet and comfortable..</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="images/pic-4.png" alt="">
+            <h3>Angelina joseph</h3>
+            <p> The hotel, staff, and the service was simply amazing. Enjoyed every bit of of my stay. everything was very well organized, very clean rooms.. Decor is very impressive and beds are comfortable.. ensuring a pleasant stay..</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="images/pic-5.png" alt="">
+            <h3>Chris harris</h3>
+            <p>I liked that the hotel was close to the airport and the location of the hotel was on the main road so it was easy to locate and check-in at around midnight.</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="images/pic-6.png" alt="">
+            <h3>Lee Eunbi</h3>
+            <p>They were extremely accommodating and allowed us to check in early at like 10am. We got to hotel super early and I didn’t wanna wait. So this was a big plus. The sevice was exceptional as well. Would definitely send a friend there.</p>
+         </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+<!-- reviews section ends  -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i> +91-6359654722</a>
+         <a href="tel:1112223333"><i class="fas fa-phone"></i> +91-9834568993</a>
+         <a href="mailto:shakhanas@gmail.com"><i class="fas fa-envelope"></i> shakhanas@gmail.com</a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i> chennai, india - 600003</a>
+      </div>
+
+      <div class="box">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#reservation">reservation</a>
+         <a href="#gallery">gallery</a>
+         <a href="#contact">contact</a>
+         <a href="#reviews">reviews</a>
+      </div>
+
+      <div class="box">
+         <a href="#">facebook <i class="fab fa-facebook-f"></i></a>
+         <a href="#">twitter <i class="fab fa-twitter"></i></a>
+         <a href="#">instagram <i class="fab fa-instagram"></i></a>
+         <a href="#">linkedin <i class="fab fa-linkedin"></i></a>
+      </div>
+
+   </div>
+
+   <div class="credit">&copy; copyright @ 2023 by  web designer | all rights reseved!</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
